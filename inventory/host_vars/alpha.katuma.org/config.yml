@@ -1,5 +1,6 @@
 ---
-domain: alpha.katuma.org
+old_domain: alpha.katuma.org
+domain: app.katuma.org
 rails_env: production
 
 admin_email: info@coopdevs.org
@@ -11,7 +12,5 @@ certbot_domains:
   - alpha.katuma.org
 
 certbot_cert_name: app.katuma.org
-
-server_name: "alpha.katuma.org app.katuma.org"
 
 swapfile_size: 1G
