@@ -1,6 +1,14 @@
 ---
+# `old_domain` is used here but in
+# https://github.com/coopdevs/katuma-provisioning/blob/master/katuma.yml to
+# permanently redirect all traffic to `domain`. This way we do not drop all
+# links that might be still in use.
+#
+# Note that all Katuma's additional and custom ansible playbooks are
+# implemented in https://github.com/coopdevs/katuma-provisioning.
 old_domain: alpha.katuma.org
 domain: app.katuma.org
+
 rails_env: production
 
 admin_email: info@coopdevs.org
